@@ -8,13 +8,19 @@ import Education from './Education';
 export default function Home(){
 
     return (
-        <>
+        < div>
     
     <About/>
+    <div style={{marginTop:'15%'}} >
     <Experience/>
+    </div>
+    <div style={{marginTop:'15%'}} >
     <Certification/>
+    </div>
+    <div style={{marginTop:'15%'}} >
     <Education/>
-        </>
+    </div>
+        </div>
     
     )
 }

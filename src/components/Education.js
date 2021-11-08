@@ -1,6 +1,6 @@
 import React from 'react'
 export default function Education(){
-return (<div style={{marginLeft:'30%'}} >
+return (<div style={{marginLeft:'30%', marginTop:'-15%'}} >
     
     
     <h1 style={{color:'red'}}>Educational Qualifications</h1>

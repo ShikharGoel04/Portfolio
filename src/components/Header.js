@@ -11,17 +11,17 @@ export default function Header(){
             </div>
             </Row>
             
-    <div style={{marginTop:'0%',marginLeft:'20%'}}>
+    <div style={{marginTop:'0%',marginLeft:'-10%'}}>
        
-    <Navbar  collapseOnSelect bg="light" expand="lg" className="nav-display">
+    <Navbar  collapseOnSelect bg="light" expand="lg" className="nav-display" >
   
     
-    <Navbar.Brand href="#home" className="nav-item-display"><Link to="/"><strong>Shikhar</strong></Link></Navbar.Brand>
+    <Navbar.Brand href="#home" className=" nav-display nav-item-display"><Link to="/"><strong>Shikhar</strong></Link></Navbar.Brand>
    
       <Nav>
-        <Nav.Link className="nav-item-display"><Link to="/exp"><strong>Experience</strong></Link></Nav.Link>
-        <Nav.Link className="nav-item-display"><Link to="/cert"><strong>Certification</strong></Link></Nav.Link>
-        <Nav.Link className="nav-item-display"><Link to="/edu"><strong>Education</strong></Link></Nav.Link>
+        <Nav.Link className="nav-display nav-item-display"><Link to="/exp"><strong>Experience</strong></Link></Nav.Link>
+        <Nav.Link className="nav-display nav-item-display"><Link to="/cert"><strong>Certification</strong></Link></Nav.Link>
+        <Nav.Link className="nav-display nav-item-display"><Link to="/edu"><strong>Education</strong></Link></Nav.Link>
        
         </Nav>
    
