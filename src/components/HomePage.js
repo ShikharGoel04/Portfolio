@@ -4,6 +4,7 @@ import About from './Aboutme';
 import Experience from './Experience';
 import { Route,Routes } from 'react-router-dom';
 import Certification from './Certification';
+import Education from './Education';
 export default function Home(){
 
     return (
@@ -12,6 +13,7 @@ export default function Home(){
     <About/>
     <Experience/>
     <Certification/>
+    <Education/>
         </>
     
     )

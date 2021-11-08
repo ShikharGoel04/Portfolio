@@ -6,6 +6,7 @@ import About from './components/Aboutme';
 import Header from './components/Header';
 import Certification from './components/Certification';
 import Experience from './components/Experience';
+import Education from './components/Education';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
   <Route path="/about" element={<About/>}/>
   <Route path="/exp" element={<Experience/>}/>
   <Route path="/cert" element={<Certification/>}/>
+  <Route path="/edu" element={<Education/>}/>
   </Routes>
 
   </>
