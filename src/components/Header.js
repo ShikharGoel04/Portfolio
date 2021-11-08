@@ -1,20 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar,Nav,NavDropdown,Container } from "react-bootstrap";
+import { Navbar,Nav,NavDropdown,Container,Row } from "react-bootstrap";
+import ImageDisp from "./Image";
 export default function Header(){
 
-    return(<>
-    
-    <div style={{marginTop:'5%',marginLeft:'20%'}}>
-    <Navbar collapseOnSelect bg="light" expand="lg" className="nav-display">
+    return(<Container>
+        <Row>
+    <div  style={{marginLeft:'10%',marginTop:'0%'}}>
+            <ImageDisp/>
+            </div>
+            </Row>
+            
+    <div style={{marginTop:'0%',marginLeft:'20%'}}>
+       
+    <Navbar  collapseOnSelect bg="light" expand="lg" className="nav-display">
   
     
-    <Navbar.Brand href="#home" className="nav-item-display"><Link to="/">Shikhar</Link></Navbar.Brand>
+    <Navbar.Brand href="#home" className="nav-item-display"><Link to="/"><strong>Shikhar</strong></Link></Navbar.Brand>
    
       <Nav>
-        <Nav.Link className="nav-item-display"><Link to="/exp">Experience</Link></Nav.Link>
-        <Nav.Link className="nav-item-display"><Link to="/cert">Certification</Link></Nav.Link>
-        <Nav.Link className="nav-item-display"><Link to="/edu">Education</Link></Nav.Link>
+        <Nav.Link className="nav-item-display"><Link to="/exp"><strong>Experience</strong></Link></Nav.Link>
+        <Nav.Link className="nav-item-display"><Link to="/cert"><strong>Certification</strong></Link></Nav.Link>
+        <Nav.Link className="nav-item-display"><Link to="/edu"><strong>Education</strong></Link></Nav.Link>
        
         </Nav>
    
@@ -24,5 +31,5 @@ export default function Header(){
   
 </Navbar>
 </div>
-    </>)
+    </Container>)
 }
