@@ -10,6 +10,7 @@ import Education from './components/Education';
 import PHOTO from './assets/PHOTO.jpg';
 import logoImg from './assets/logoImg.png';
 import Footer from './components/Footer';
+import Timeline from './components/TimelineContainer';
 function App() {
   return (
     <div className="flex-portfolio" style={{backgroundColor:'lightcyan'}}>
@@ -35,6 +36,9 @@ function App() {
   <Route path="/edu" element={<Education/>}/>
   </Routes>
   </div>
+  <div className="flex-timeline">
+    <Timeline/>
+    </div>
 </div>
 <div className="footer">
   <Footer/>
