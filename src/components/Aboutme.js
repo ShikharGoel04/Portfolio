@@ -13,8 +13,10 @@ export default function About()
   <Card.Body>
     <Card.Title><h1>Shikhar Goel</h1></Card.Title>
     <Card.Text>
-    <strong>Hi, I am Shikhar Goel. I am currently working as a Software Engineer at MediaAgility. I have experience of working with APIGEE API Management as well as full stack development.
-    I have worked with several technolgies like Bootstrap, JavaScript and React. </strong>
+    <strong>Hi, I am Shikhar Goel. I am currently working as a Software Engineer at MediaAgility. I have experience of working with APIGEE API Management as well as front-end development.
+      I have some experience and knowledge of working with backend technologies like Java and NodeJS.
+    Apart from my technical skills, I love to play guitar and workout.  
+     </strong>
     </Card.Text>
    
   </Card.Body>
