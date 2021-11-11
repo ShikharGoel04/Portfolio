@@ -101,3 +101,13 @@
   margin-top: 0%;
 
 }
+.footer{
+  background-color: lightgray;
+ 
+}
+
+.footerContent{
+  margin-left: 30%;
+ padding-bottom: 1%;
+ padding-top: 2%;
+}

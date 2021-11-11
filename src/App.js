@@ -9,12 +9,13 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import PHOTO from './assets/PHOTO.jpg';
 import logoImg from './assets/logoImg.png';
+import Footer from './components/Footer';
 function App() {
   return (
-    <div style={{backgroundColor:'lightcyan'}}>
+    <div className="flex-portfolio" style={{backgroundColor:'lightcyan'}}>
       <div className="image-container">
         <div className="img-left">
-        <img src={PHOTO} width='100' height='100'/>  <p><strong>Software Engineer</strong></p> 
+        <img src={PHOTO} width='100' height='100'/>  <p><strong>Shikhar Goel (Software Engineer)</strong></p> 
           </div>
           <div className="img-right">
           <img src={logo}  width='70%'
@@ -35,7 +36,11 @@ function App() {
   </Routes>
   </div>
 </div>
+<div className="footer">
+  <Footer/>
   </div>
+  </div>
+
 
   );
 }
