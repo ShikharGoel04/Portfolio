@@ -1,13 +1,15 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import PHOTO from '../assets/PHOTO.jpg';
+
 export default function About()
 {
 
     return (<>
-   <div style={{marginLeft:'30%', marginTop:'-15%'}}>
-    <h1 style={{color:'red'}}>About me</h1>
-    <Card  style={{display:'flex', width: '70%', height:'180%', border:'1px solid black'}} >
-  <Card.Img variant="top" src="holder.js/100px180" />
+   <div style={{backgroundColor:'lightskyblue',paddingBottom:'10%'}}>
+  
+    <Card  style={{width: '70%',marginLeft:'10%',paddingTop:'5%', height:'250%'}} >
+  <Card.Img variant="top" src={PHOTO} width="30%"/>
   <Card.Body>
     <Card.Title><h1>Shikhar Goel</h1></Card.Title>
     <Card.Text>

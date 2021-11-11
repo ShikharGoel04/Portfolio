@@ -1,13 +1,13 @@
 import React from 'react'
 export default function Education(){
-return (<div style={{marginLeft:'30%', marginTop:'-15%'}} >
+return (<div style={{backgroundColor:'lightsalmon',paddingBottom:'10%'}} >
     
     
-    <h1 style={{color:'red'}}>Educational Qualifications</h1>
-    <p>2013 - 12th - 89.4</p>
-    <p>2013 - 12th - 89.4</p>
-    <p>2013 - 12th - 89.4</p>
-    <p>2013 - 12th - 89.4</p>
+    <h1 style={{color:'darkslateblue',marginLeft:'10%'}}>Educational Qualifications</h1>
+    <p style={{marginLeft:'10%'}}>2013 - 12th - 89.4</p>
+    <p style={{marginLeft:'10%'}}>2013 - 12th - 89.4</p>
+    <p style={{marginLeft:'10%'}}>2013 - 12th - 89.4</p>
+    <p style={{marginLeft:'10%'}}>2013 - 12th - 89.4</p>
     
 
 

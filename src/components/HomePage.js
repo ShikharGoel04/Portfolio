@@ -8,16 +8,17 @@ import Education from './Education';
 export default function Home(){
 
     return (
-        < div>
-    
-    <About/>
-    <div style={{marginTop:'15%'}} >
+        < div className="flex-home">
+    <div className="flex-home-item" >
+    <About />
+    </div>
+    <div className="flex-home-item" >
     <Experience/>
     </div>
-    <div style={{marginTop:'15%'}} >
+    <div className="flex-home-item" >
     <Certification/>
     </div>
-    <div style={{marginTop:'15%'}} >
+    <div className="flex-home-item" >
     <Education/>
     </div>
         </div>
