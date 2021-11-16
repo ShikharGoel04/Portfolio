@@ -5,6 +5,7 @@ import Experience from './Experience';
 import { Route,Routes } from 'react-router-dom';
 import Certification from './Certification';
 import Education from './Education';
+import ExtraCurricular from './ExtraCurricular';
 export default function Home(){
 
     return (
@@ -20,6 +21,9 @@ export default function Home(){
     </div>
     <div className="flex-home-item" >
     <Education/>
+    </div>
+    <div className="flex-home-item" >
+    <ExtraCurricular/>
     </div>
         </div>
     

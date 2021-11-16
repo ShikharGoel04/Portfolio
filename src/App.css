@@ -67,7 +67,7 @@
 .flex-item-left{
   width:20%;
   background-color:darkseagreen;
-  margin-bottom: 100%;
+  margin-bottom: 120%;
   margin-left: 5%;
  
 }
@@ -94,8 +94,9 @@
   margin-top: 2%;
 }
 .img-right{
-  width:80%;
-  height: 10%;
+  width:700;
+  height: 150;
+  
   
 }
 .flex-home{

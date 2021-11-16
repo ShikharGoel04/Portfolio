@@ -1,12 +1,27 @@
 import React from 'react';
+import coursera from '.././assets/coursera.png';
+import GoogleCloud from '.././assets/GoogleCloud.png';
+import hackerrank from '.././assets/hackerrank.png';
+
 export default function Certification(){
 
     return (
-    <div style={{backgroundColor:'lightseagreen',paddingBottom:'10%'}}>
+    <div style={{backgroundColor:'lightyellow',paddingBottom:'10%'}}>
         <h1 style={{color:'darkslateblue',marginLeft:'10%'}}>Certification</h1>
-        <h2 style={{marginLeft:'10%'}}>2020 - APIGEE API Managment</h2>
-        <p style={{marginLeft:'10%'}}>Issuing Organization - Coursera</p>
-    
+
+        <img style={{marginLeft:'2%'}} src={GoogleCloud} height="80" width="80"/> <h4 style={{marginLeft:'18%',marginTop:'-10%',color:'darkblue'}}>  November,2021 - Google Cloud Certified - Associate Cloud Engineer
+       Issuing Organization - Google Cloud</h4>
+
+       <img style={{marginLeft:'2%'}} src={hackerrank} height="80" width="80"/>  <h4 style={{marginLeft:'18%',marginTop:'-10%',color:'darkblue'}}>March,2021 - JavaScript(Basic)
+       Issuing Organization - Hackerrank</h4>
+
+       <img style={{marginLeft:'2%'}} src={coursera} height="80" width="80"/> <h4 style={{marginLeft:'18%',marginTop:'-10%',color:'darkblue'}}>August,2020  - Developing APIs with Google Cloud's 
+Apigee API Platform Specialization
+Issuing Organization - Coursera</h4>
+
+       
+
+     
     
     
     

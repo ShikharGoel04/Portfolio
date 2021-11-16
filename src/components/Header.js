@@ -17,6 +17,7 @@ export default function Header(){
         <Nav.Link className=" nav-item-display"><Link to="/exp"><strong>Experience</strong></Link></Nav.Link>
         <Nav.Link className=" nav-item-display"><Link to="/cert"><strong>Certification</strong></Link></Nav.Link>
         <Nav.Link className=" nav-item-display"><Link to="/edu"><strong>Education</strong></Link></Nav.Link>
+        <Nav.Link className=" nav-item-display"><Link to="/extra"><strong>Extra-Curricular Activites</strong></Link></Nav.Link>
        
        
    

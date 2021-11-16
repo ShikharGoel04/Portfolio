@@ -11,16 +11,17 @@ import PHOTO from './assets/PHOTO.jpg';
 import logoImg from './assets/logoImg.png';
 import Footer from './components/Footer';
 import Timeline from './components/TimelineContainer';
+import ExtraCurricular from './components/ExtraCurricular';
 function App() {
   return (
-    <div className="flex-portfolio" style={{backgroundColor:'lightcyan'}}>
+    <div className="flex-portfolio" >
       <div className="image-container">
         <div className="img-left">
         <img src={PHOTO} width='100' height='100'/>  <p><strong>Shikhar Goel (Software Engineer)</strong></p> 
           </div>
-          <div className="img-right">
-          <img src={logo}  width='70%'
-        height='200' />
+          <div className="img-right" >
+          <img src={logo}  width='700' 
+        height='150' />
           </div>
         </div>
       <div className="flex-container">
@@ -34,6 +35,8 @@ function App() {
   <Route path="/exp" element={<Experience/>}/>
   <Route path="/cert" element={<Certification/>}/>
   <Route path="/edu" element={<Education/>}/>
+  <Route path="/extra" element={<ExtraCurricular/>}/>
+  
   </Routes>
   </div>
   <div className="flex-timeline">
