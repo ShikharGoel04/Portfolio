@@ -1,0 +1,22 @@
+.flex-container-mobile
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-item-top
+{
+    width:100%;
+    
+}
+.flex-item-bottom
+{
+    width:80%
+}
+
+.nav-display-mobile{
+    display: flex;
+    flex-direction: row;
+}
+
+
