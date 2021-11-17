@@ -21,15 +21,6 @@ function App() {
       
    {width>768&&
    <>
-   <div className="image-container">
-      <div className="img-left">
-      <img src={PHOTO} width='100' height='100'/>  <p><strong>Shikhar Goel (Software Engineer)</strong></p> 
-        </div>
-        <div className="img-right" >
-        <img src={logo}  width='700' 
-      height='150' />
-        </div>
-      </div>
     <div className="flex-container">
       <div className="flex-item-left">
   <Header/>

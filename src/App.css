@@ -68,6 +68,8 @@
 .flex-container{
   display: flex;
   flex-direction: row;
+  margin-top: 0%;
+ 
 }
 .flex-item-left{
   width:20%;
@@ -78,13 +80,12 @@
 }
 .flex-item-right{
   width:50%;
-  margin-top: -1%;
+  
   margin-left: 5%;
 
 }
 .flex-timeline{
   width:30%;
-  margin-top: -1%;
   margin-left: 5%;
   
 }
