@@ -1,4 +1,10 @@
-export const WorkExperience=[ {
+export const WorkExperience=[{
+    designation:'Associate',
+    text: 'Cognizant',
+    Technologies:'JavaScript,React,Git,Postman,APIGEE',
+    date: 'March,2022-Present',
+   
+}, {
     designation:'Software Engineer',
     text: 'MediaAgility',
     Technologies:'APIGEE,JavaScript,React,Git,Postman',
