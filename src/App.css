@@ -72,21 +72,23 @@
  
 }
 .flex-item-left{
-  width:20%;
+  width:10%;
   background-color:darkseagreen;
-  margin-bottom: 180%;
-  margin-left: 5%;
+  margin-bottom: 220%;
+  margin-left: 2%;
+  margin-top:2%;
  
 }
 .flex-item-right{
   width:50%;
-  
+  margin-top:2%;
   margin-left: 5%;
 
 }
 .flex-timeline{
   width:30%;
   margin-left: 5%;
+  margin-top:2%;
   
 }
 .image-container{
